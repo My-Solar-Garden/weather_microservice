@@ -18,9 +18,9 @@ class ApplicationController < Sinatra::Base
       f.params['lat'] = lat
       f.params['lon'] = lon
       f.params['exclude'] = 'minutely,hourly'
+      f.params['units'] = 'imperial'
     end
-    # require "pry"; binding.pry
-    # parsed_json = JSON.parse(response.body, symbolize_names: true)
-    JSON.generate(response)
+    parsed_json = JSON.parse(response.body, symbolize_names: true)
+    parsed_json.to_json
   end
 end
