@@ -1,0 +1,19 @@
+language: ruby
+rbenv:
+- 2.5.3
+script:
+- bundle exec rspec
+deploy:
+  provider: heroku
+  api_key:
+    secure: O2cg6LAViHt5I9KvZCACKRWi9scBY5nf57yczTNw+jW/SSLUpHAyJZYRn89QYynsclQIHCgnuq/wIN7u+kZnCim5oiDtXeArPvZI79BGZsh85epW80Pby1vUwq6UxPyOmpPe7TYewMKutQPuK5nCUj6P1xfn9WrYGTO+ZStq5LG4LMh6gcyUzBA9wMOIBx5gow9X3rEtSkcoAtztomb3mn93BGXf4sI9C6zUeJzeiNXxQJepOpukqtAFO8/ws7E6AnbBg2lUgvNB8CQMlPNSowamJGQl2oq2zsFtQicNCl/cypaAownq6As0FT3hrE4cia6Uwtpl/whUh+7mOx8uqf7FcR+d+nh6R/PN+73UUVVr3jLWBp97zbV5fDL//zGpNQ2NBABaCr6aGhtPXftB9XAIOr4oIHewMlUmGvZJm8oi0dfF7D1CCL73Rr3OMNSrn95DKkiGeXnNyC+e4iw9babM9Ge9kcFO5jiTd7Rn6rnEF/ztyttHVcgsNlSxIKNycpETlUoU2k6AKA47PTNLssFozKPy23KIzWppcTLuE4DpYsHih/9kwjUluirXq39NDabUKWrhdWmmd7wQsYhJD/X53aj9e1ASwEJfQV/JpV0Ejhi+/WB9HbZhKcvS6Uf+bMGbvLjxq1fW6RejpQBLMsGdwco3KYe3EeYeYFX8ts0=
+  app: weather-microservice-api
+  on:
+    repo: My-Solar-Garden/weather_microservice
+    branch: main
+  notifications:
+  email:
+    on_success: never
+    on_failure: never
+cache:
+- bundler
