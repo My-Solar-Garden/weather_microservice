@@ -31,8 +31,8 @@ Using this application will allow us to send up to date weather information and 
  All weather data should be gathered from [The One Call endpoint](https://openweathermap.org/api/one-call-api)
  
 ### Versions and Gems
-  [Figaro](https://github.com/laserlemon/figaro) run `Bundle Exec Figaro Intall` after putting this in your gemfile
-  [Faraday](https://github.com/lostisland/faraday)
+ * [Figaro](https://github.com/laserlemon/figaro) run `Bundle Exec Figaro Intall` after putting this in your gemfile
+ * [Faraday](https://github.com/lostisland/faraday)
   
 ### Contributors
 
