@@ -19,6 +19,17 @@ Using this application will allow us to send up to date weather information and 
 * Refactor code to be more maintainable and to closely follow the pillars of OOP
 
 
+### Local Setup
+
+1. Fork and Clone the repo
+2. Visit https://openweathermap.org/guide to sign up for an API key
+3. Read through Open Weather documentation for how to format the API call.
+
+
+### API Endpoint
+ 
+ All weather data should be gathered from [The One Call endpoint](https://openweathermap.org/api/one-call-api)
+  
 ### Contributors
 
   * Alex Desjardins
@@ -60,9 +71,4 @@ Using this application will allow us to send up to date weather information and 
   * Roberto Rodriguez 
     * [GitHub](https://github.com/robertorodriguez12)
     * [LinkedIn](https://www.linkedin.com/in/roberto-j-rodriguez12/)
-
-### Local Setup
-
-1. Fork and Clone the repo
-2. Visit https://openweathermap.org/guide to sign up for an API key
-3. Read through Open Weather documentation for how to format the API call. 
+ 
