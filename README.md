@@ -4,12 +4,16 @@
 
 ![Build Status](https://travis-ci.com/My-Solar-Garden/weather_microservice.svg?branch=main)
 
+# [My Solar Garden](https://solar-garden-fe.herokuapp.com/) - Weather Microservice
 
 ### Overview
 
 My-Solar-Garden Weather Microservice is a Sinatra Application meant to function as an weather API for [My Solar Garden](https://solar-garden-fe.herokuapp.com/),  an application for tracking the soil health of a garden as well as measuring a users' carbon impact.
 
 Using this application will allow us to send up to date weather information and 7 day weather forecasts for users' gardens based on those gardens' geolocations (Latitude and Longitude). We collect this data using the [Open Weather API](https://openweathermap.org/)
+
+## Repos
+For access to all the repos that make up the Service Oriented Architecture of this application please visit our [origanization page](https://github.com/My-Solar-Garden).
 
 
 ### Learning Goals
