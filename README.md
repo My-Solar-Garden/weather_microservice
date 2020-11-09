@@ -12,7 +12,7 @@ My-Solar-Garden Weather Microservice is a Sinatra Application meant to function 
 
 Using this application will allow us to send up to date weather information and 7 day weather forecasts for users' gardens based on those gardens' geolocations (Latitude and Longitude). We collect this data using the [Open Weather API](https://openweathermap.org/)
 
-## Repos
+### Repos
 For access to all the repos that make up the Service Oriented Architecture of this application please visit our [origanization page](https://github.com/My-Solar-Garden).
 
 
